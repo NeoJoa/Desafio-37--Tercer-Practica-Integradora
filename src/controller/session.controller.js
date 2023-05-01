@@ -29,10 +29,10 @@ export default class SessionController {
         await transport.sendMail({
           from: "joaquinaquino999@gmail.com",
           to: req.user.email,
-          subject: "Se ha creado una cuenta en Ecommerce Coder",
+          subject: "Se ha creado una cuenta en Ecommerce JA",
           html: `
                 <div style="background-color: black; color: green; display: flex; flex-direction: column; justify-content: center;  align-items: center;">
-                    <h1>Bienvenido a Ecommerce Coder</h1>
+                    <h1>Bienvenido a Ecommerce JA</h1>
                 </div>
                 `,
         });
